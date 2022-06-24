@@ -7,7 +7,6 @@
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
 }
 
@@ -83,4 +82,14 @@ h3 {
 }
 .app {
   text-align: left;
+}
+@media (max-width: 576px) {
+  .page-images {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .for-mobile {
+    text-align: center;
+  }
 }
