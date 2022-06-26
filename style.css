@@ -96,10 +96,10 @@ h3 {
   .app {
     text-align: center;
   }
-  .mobile-font {
-    font-size: 32px;
+  h2 {
+    font-size: 30px;
   }
-  .mobile-font-double {
-    font-size: 76px;
+  h1 {
+    font-size: 60px;
   }
 }
