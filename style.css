@@ -84,12 +84,19 @@ h3 {
   text-align: left;
 }
 @media (max-width: 576px) {
-  .page-images {
+  .image-for-mobile {
     display: none;
   }
 }
 @media (max-width: 576px) {
-  .for-mobile {
+  .for-mobile,
+  .app {
     text-align: center;
+  }
+  .mobile-font {
+    font-size: 32px;
+  }
+  .mobile-font-double {
+    font-size: 76px;
   }
 }
